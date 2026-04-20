@@ -1,0 +1,10 @@
+# .gitlab-ci.yml
+# Ce fichier dit à GitLab quoi faire automatiquement
+
+stages:
+  - run
+
+executer-python:
+  stage: run
+  script:
+    - python hello.py
